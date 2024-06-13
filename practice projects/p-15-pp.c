@@ -2,12 +2,12 @@
 #include <math.h>
 int main()
 {
-    int i = 10;
-    do
+    int n;
+    printf("enter n : ");
+    scanf("%d", &n);
+    for (int i = n; i >= 1; i--)
     {
         printf("%d\n", i);
-        i--;
-    } while (i >= 0);
-
+    }
     return 0;
 }
