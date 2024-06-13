@@ -1,3 +1,4 @@
+/* Keep taking numbers as input from user until user enters an odd number */
 #include <stdio.h>
 #include <math.h>
 int main()

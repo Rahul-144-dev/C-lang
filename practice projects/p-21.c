@@ -1,4 +1,4 @@
-/* Print the Sum of First n Natural Numbers */
+/* Print the factorial of a number n */
 #include <stdio.h>
 #include <math.h>
 int main()
@@ -6,12 +6,11 @@ int main()
     int n;
     printf("Enter n : ");
     scanf("%d", &n);
-    int sum = 0;
+    int factorial = 1;
     for (int i = 1; i <= n; i++)
     {
-        sum += i;
+        factorial *= i;
     }
-    printf("%d\n", sum);
-
+    printf("%d\n", factorial);
     return 0;
 }

@@ -1,3 +1,5 @@
+/* Multiplication Table */
+/* Print the table of a number input by the user */
 #include <stdio.h>
 #include <math.h>
 int main()
@@ -9,6 +11,5 @@ int main()
     {
         printf("%d*%d=%d\n", n, i, n * i);
     }
-    printf("");
     return 0;
 }

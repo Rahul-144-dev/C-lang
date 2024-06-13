@@ -1,3 +1,4 @@
+/* Keep taking numbers as input from user until user enters a number which is multiple of 7. */
 #include <stdio.h>
 #include <math.h>
 int main()
