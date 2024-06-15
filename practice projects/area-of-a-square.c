@@ -1,10 +1,10 @@
 #include <stdio.h>
-int main(){
+int main()
+{
     float side;
     printf("enter side");
-    scanf("%f",&side);
+    scanf("%f", &side);
 
-    printf("area is :%f", side*side);
-        return 0;
-        }
-
+    printf("area is :%f", side * side);
+    return 0;
+}
