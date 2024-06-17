@@ -10,7 +10,7 @@ int main()
     scanf("%d", &r2);
     for (int i = r1; i <= r2; i++)
     {
-        if (i % 1 == 0&&i%)
+        if (i % 1 == 0 && i % i == 0)
     }
     return 0;
 }
