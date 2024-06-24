@@ -1,3 +1,4 @@
+/*the using of a power*/
 #include <stdio.h>
 #include <math.h>
 int main()
